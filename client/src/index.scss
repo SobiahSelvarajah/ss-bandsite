@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@use './partials/breakpoints' as *;
+@use './partials/textstyles' as *;
+@use './partials/typeface' as *;
+@use './partials/colors' as *;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+// general styling
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+h1 {
+  font-family: 'Avenir Next Bold';
+  font-size: $h1_text_size_m;
+  line-height: $h1_line_height_m;
+  @include tablet {
+      font-size: $h1_text_size_dt;
+      line-height: $h1_line_height_dt;
+  }
+}
+h2 {
+  font-family: 'Avenir Next Bold';
+  font-size: $h2_text_size_m;
+  line-height: $h2_line_height_m;
+  @include tablet {
+      font-size: $h2_text_size_dt;
+      line-height: $h2_line_height_dt;
+  }
+}
+h3 {
+  font-family: 'Avenir Next Demi';
+  font-size: $h3_text_size_m;
+  line-height: $h3_line_height_m;
+  @include tablet {
+      font-size: $h3_text_size_dt;
+      line-height: $h3_line_height_dt;
+  }
+}
+h4 {
+  font-family: 'Avenir Next Regular';
+  font-size: $h4_text_size_m;
+  line-height: $h4_line_height_m;
+  @include tablet {
+      font-size: $h4_text_size_dt;
+      line-height: $h4_line_height_dt;
+  }
+}
+h5 {
+  font-family: 'Avenir Next Regular';
+  font-size: $h5_text_size_m;
+  line-height: $h5_line_height_m;
+  @include tablet {
+      font-size: $h5_text_size_dt;
+      line-height: $h5_line_height_dt;
+  }
+}
+h6 {
+  font-family: 'Avenir Next Bold';
+  font-size: $h6_text_size_m;
+  line-height: $h6_line_height_m;
+  @include tablet {
+      font-size: $h6_text_size_dt;
+      line-height: $h6_line_height_dt;
+  }
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
