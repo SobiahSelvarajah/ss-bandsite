@@ -44,6 +44,7 @@ h4 {
   font-family: 'Avenir Next Regular';
   font-size: $h4_text_size_m;
   line-height: $h4_line_height_m;
+  padding-bottom: 16px;
   @include tablet {
       font-size: $h4_text_size_dt;
       line-height: $h4_line_height_dt;
@@ -53,6 +54,7 @@ h5 {
   font-family: 'Avenir Next Regular';
   font-size: $h5_text_size_m;
   line-height: $h5_line_height_m;
+  padding-bottom: 16px;
   @include tablet {
       font-size: $h5_text_size_dt;
       line-height: $h5_line_height_dt;
