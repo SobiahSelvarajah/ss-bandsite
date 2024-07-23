@@ -1,0 +1,13 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/colors' as *;
+
+.footerText {
+    &__container {
+        padding: 24px 0 48px 0;
+    }
+    &__name {
+        font-family: 'Avenir Next Demi Bold';
+    }
+}
