@@ -8,6 +8,12 @@
         background-color: $bandsite_black;
         color: $white;
         padding: 24px 16px 16px 16px;
+        @include tablet {
+            padding: 48px 24px 24px 24px;
+        }
+        @include desktop {
+            padding-left: 8rem;
+        }
     }
     &__heading {
         font-family: 'Avenir Next Demi';
