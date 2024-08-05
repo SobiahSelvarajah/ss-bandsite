@@ -1,0 +1,49 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/colors' as *;
+
+.footerTop {
+    &__container {
+        @include tablet {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &__text {
+        @include tablet{
+            display: flex;
+            flex-direction: row;
+            align-items: center;            
+        }
+    }
+    &__heading {
+        font-family: 'Avenir Next Demi';
+        @include tablet {
+            padding-right: 32px;
+        }
+    }
+    &__socials {
+        display: flex;
+        flex-direction: row;
+        padding-top: 16px;
+        @include tablet {
+            padding-top: 0;
+        }
+    }
+    &__logo {
+        height: 1.3rem;
+        padding-right: 32px;
+    }
+    &__topLogo {
+        @include mobile {
+            display: none;
+        }
+        @include tablet {
+            height: 20px;
+            width: 120px;
+        }
+    }
+}

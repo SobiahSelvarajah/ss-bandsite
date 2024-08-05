@@ -9,33 +9,20 @@
         color: $white;
         padding: 24px 16px 16px 16px;
         @include tablet {
-            padding: 48px 24px 24px 24px;
+            padding: 48px 40px;
         }
         @include desktop {
             padding-left: 8rem;
         }
     }
-    &__heading {
-        font-family: 'Avenir Next Demi';
-    }
-    &__socials {
-        display: flex;
-        flex-direction: row;
-        padding-top: 16px;
-    }
-    &__socialsLogo {
-        height: 1.3rem;
-        padding-right: 24px;
-    }
-    // &__textContainer {
-    //     padding: 24px 0 48px 0;
-    // }
-    &__copyrightText {
-        padding-top: 16px;
-
-    }
-    &__logo {
+    &__bottomLogo {
         height: 20px;
         width: 120px;
+        @include tablet {
+            display: none;
+        }
+    }
+    &__copyrightText {
+        padding-top: 24px;
     }
 }
