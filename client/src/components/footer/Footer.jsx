@@ -1,7 +1,8 @@
 import React from 'react'
 import Logo from '../../assets/logo/logo-bandsite.svg'
-import FooterText from '../footerText/FooterText'
 import FooterTop from '../footerTop/FooterTop'
+import FooterText from '../footerText/FooterText'
+import CopyrightText from '../copyrightText/CopyrightText'
 import './Footer.scss'
 
 const Footer = () => {
@@ -13,9 +14,7 @@ const Footer = () => {
         {/* logo container */}
         <div className="footer__logoContainer">
             <img src={Logo} alt="logo" className="footer__bottomLogo" />
-            <h5 className="footer__copyrightText">
-                Copyright The Bees Knees 2021 All Rights Reserved
-            </h5>            
+            <CopyrightText/>
         </div>
         
     </footer>

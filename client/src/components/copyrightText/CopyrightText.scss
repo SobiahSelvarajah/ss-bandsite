@@ -1,0 +1,10 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/colors' as *;
+
+.copyrightText {
+    &__text {
+        padding-top: 24px;
+    }
+}
