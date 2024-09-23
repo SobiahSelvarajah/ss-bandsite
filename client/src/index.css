@@ -1,23 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 :root {
+  --font-base: 'Nunito', serif;
+
   --primary-color-bandsite-black: #323232;
   --primary-color-silver: #AFAFAF;
   --primary-color-white: #FFFFFF;
   --secondary-color-bandsite-dark-black: #000000;
   --secondary-color-bandsite-mercury: #E1E1E1;
   --secondary-color-bandsite-alabaster: #FAFAFA;
+}
 
-  * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    outline: 0;
-    box-sizing: border-box;  
-    text-decoration: none;      
-    scroll-behavior: smooth;
-    list-style: none;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;  
+  text-decoration: none;      
+  scroll-behavior: smooth;
+  list-style: none;
+}
 
-  a {
-    color: unset;
-  }
+a {
+  color: unset;
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
