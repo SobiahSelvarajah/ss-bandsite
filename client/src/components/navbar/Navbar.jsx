@@ -1,12 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import NavLogo from '../navLogo/NavLogo'
+import BandsiteLogo from '../bandsiteLogo/BandsiteLogo'
 import './Navbar.css'
 
 const Navbar = () => {
   return (
     <nav className="navbar__container">
-        <NavLogo/>
+        <BandsiteLogo/>
         <ul className="navbar__links">
             <li className="navbar__link">
                 <Link to="/">Biography</Link>
