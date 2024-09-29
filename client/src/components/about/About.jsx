@@ -1,10 +1,11 @@
 import React from 'react'
+import AboutHeading from '../aboutHeading/AboutHeading'
 import './About.css'
 
 const About = () => {
   return (
     <article className="about__container">
-        {/* heading */}
+        <AboutHeading/>
         {/* image */}
         {/* comment */}
         {/* description */}
