@@ -1,0 +1,9 @@
+.aboutComment__text {
+    padding: 16px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .aboutComment__text {
+        padding: 36px 0;
+    }
+}
