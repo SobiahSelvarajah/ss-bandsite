@@ -1,9 +1,12 @@
 import React from 'react'
 import './Shows.css'
+import ShowsHero from '../../components/showsHero/ShowsHero'
 
 const Shows = () => {
   return (
-    <div>Shows</div>
+    <div className="shows__container">
+      <ShowsHero/>
+    </div>
   )
 }
 

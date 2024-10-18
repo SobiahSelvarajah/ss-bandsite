@@ -7,6 +7,7 @@ const AboutComment = () => {
         <h3 className="aboutComment__text">
             “We push each other to be the best. It's not uncommon for one of us to say 'this needs to be better, back to the drawing board'”
         </h3>
+        <br/>
         <h4 className="aboutComment__name">
             - Bryan Teddy, lead vocalist of The Bees Knees
         </h4>
